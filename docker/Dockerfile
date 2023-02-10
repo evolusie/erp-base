@@ -23,7 +23,6 @@ RUN RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install
         gnupg \
         software-properties-common \
         dirmngr \
-        gnupg \
         xdg-utils \
         libpangocairo-1.0-0 \
         libgeoip-dev \
