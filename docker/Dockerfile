@@ -8,7 +8,7 @@ ENV LANG C.UTF-8
 
 
 # Install some deps, lessc and less-plugin-clean-css, and wkhtmltopdf
-RUN RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y \
+RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y \
         --no-install-recommends \
         apt-utils \
         pkg-config \
